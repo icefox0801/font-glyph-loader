@@ -1,0 +1,30 @@
+{
+  "name": "font-glyph-loader",
+  "version": "0.0.0",
+  "description": "Webpack loader for extracting glyph from font",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/icefox0801/font-glyph-loader.git"
+  },
+  "keywords": [
+    "font",
+    "glyph",
+    "loader",
+    "webpack"
+  ],
+  "author": "icefox0801 <icefox0801@hotmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/icefox0801/font-glyph-loader/issues"
+  },
+  "homepage": "https://github.com/icefox0801/font-glyph-loader#readme",
+  "dependencies": {
+    "bluebird": "^3.5.0",
+    "fontmin": "^0.9.6",
+    "loader-utils": "^1.1.0"
+  }
+}
