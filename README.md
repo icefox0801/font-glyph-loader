@@ -7,7 +7,7 @@ Webpack loader for extracting glyphs from font. [font-glyph-loader](https://gith
 `npm i font-glyph-loader -D`
 
 ## Usage
-1. Write glyphs to generate font subset in `MyFont.glyph`. The font file should be also named `MyFont.ttf` in the same directory.
+1. Write glyphs to generate font subset in `MyFont.glyph`. The raw font file should be also named `MyFont.ttf` in the same directory.
 ```
 hello, world!
 ```
