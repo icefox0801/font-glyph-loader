@@ -13,8 +13,28 @@ hello, world!
 ```
 2. Loader config in `webpack.config.js`
 ```javascript
-{
-  loader: 'font-glyph-loader',
-  test: /\.glyph$/i
+module.exports = {
+  // ...
+  module: {
+    rules: [
+      {
+        test: /\.glyph$/,
+        use: [{
+          loader: 'file-loader'
+        }, {
+          loader: 'font-glyph-loader'
+        }]
+      }
+    ]
+  }
+  // ...
+}
+
+```
+
+```less
+@font-face {
+  font-family: 'MyFont';
+  src: url('../fonts/MyFont.glyph') format('truetype'); /* Safari, Android, iOS */
 }
 ```
